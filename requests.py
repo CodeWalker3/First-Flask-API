@@ -21,6 +21,3 @@ def delete(id):
     api_url = f"http://192.168.0.105:8090/countries/{id}"
     response = requests.delete(api_url)
     print (response.json())
-
-
-findall()
